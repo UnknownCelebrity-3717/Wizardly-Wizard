@@ -10,6 +10,6 @@ class Difference
         System.out.println("Enter another number: ");
         b=sc.nextInt();
         diff=a-b;
-        System.out.println("Sum: "+sum);
+        System.out.println("Difference: "+diff);
     }
 }

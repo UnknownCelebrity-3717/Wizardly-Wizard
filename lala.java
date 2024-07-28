@@ -4,12 +4,13 @@ class Difference
     public static void main()
     {
         Scanner sc = new Scanner(System.in);
-        int a,b,diff=0;
+        int a,b,diff;
         System.out.println("Enter a Number: ");
         a=sc.nextInt();
         System.out.println("Enter another number: ");
         b=sc.nextInt();
         diff=a-b;
-        System.out.println("Difference: "+diff);
+        System.out.println("Diff: "+diff);
+        System.out.println("Hey! There.");
     }
 }
